@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
-<body>
-    <main>
-        <form id="formCadastro" action="./destino.html" method="post">
+<body style="text-align: center; color: white; background-color: darkblue;">
+    <header >
+        <h1>Formulário de Cadastro do Gabiss</h1>
+    </header>
 
+    <main style="text-align: left;">
+        <form id="formCadastro" action="./destino.html" method="post">
             <label for="nome">Nome: </label>
             <input type="text" name="nome" id="nome" autofocus>
             <br><br>
@@ -87,7 +90,7 @@
             const form = document.getElementById("formCadastro")
             form.addEventListener("submit", (e)=>{
                 e.preventDefault()
-                alert("Deu aqui")
+                alert("Formulário enviado, confia!")
             })
         </script>
     </main>
