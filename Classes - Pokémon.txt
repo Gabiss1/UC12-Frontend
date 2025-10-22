@@ -1,8 +1,0 @@
-Classes -> Pokémon
-Herança -> Egg Moves / Habilidades
-
-Pokémons só conseguem ataques específicos se forem gerados por pais/mães de espécies pré-determinadas, respeitando regras de egg group. Algumas habilidades só podem ser adquiridas por um pokémon específico.
-
-
-
-
