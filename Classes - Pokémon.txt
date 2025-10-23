@@ -1,8 +1,10 @@
 Classes -> Pokémon
-Herança -> Egg Moves / Habilidades
+Herança -> Egg Moves / Outras Características
 
-Pokémons só conseguem ataques específicos se forem gerados por pais/mães de espécies pré-determinadas, respeitando regras de egg group. Algumas habilidades só podem ser adquiridas por um pokémon específico.
+Herança é um conceito de extrema importância quando falamos de programação orientada a objetos, basicamente esse conceito nos permite reutilizar alguns métodos específicos em mais de uma classe originada a partir de outra. Quando falmos de classes em herança, temos 2 nomes específicos para agrupá-las: a classe pai, que terá todos os métodos e atributos base, e as classes filhas que irão herdar os métodos e atributos da classe pai, podendo ou não modificar os métodos existentes ou adicionar novos.
 
+A herança de classes em JavaScript permite criar uma hierarquia de classes, onde as classes filhas herdam as propriedades e métodos da classe pai. Isso proporciona uma estrutura organizada e modular para o código, facilitando a manutenção e o desenvolvimento de aplicações complexas.
 
+Temos ainda o conceito de polimorfismo, onde duas classes diferentes podem utilizar um mesmo método que faz coisa diferentes, e o conceito de encapsulamento, a partir do protected, que permite que as classes filhas acessem métodos e atributos da classe pai.
 
-
+Agora, vamos fazer um paralelo com Pokémon, utilizando a mecânica de breeding e ovos. 
