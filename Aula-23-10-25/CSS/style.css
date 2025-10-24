@@ -1,0 +1,18 @@
+p {
+    color: greenyellow;
+}
+
+.verde {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: blanchedalmond;
+}
