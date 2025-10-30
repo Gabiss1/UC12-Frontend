@@ -9,7 +9,7 @@
 
 #caixa2 {
     width: 1230px;
-    height: 10px;
+    height: 550px;
     background-color: darkgoldenrod;
     padding: 10px;
     border: 10px solid cyan;
@@ -17,10 +17,32 @@
 
 #caixa3 {
     width: 150px;
-    height: 110px;
+    height: 150px;
     background-color: cadetblue;
     padding: 20px;
     border: 5px dashed purple;
+    box-sizing: border-box;
+}
+
+#caixaDescricao{
+    width: 200px;
+    height: 470px;
+    background-color: purple;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+}
+
+#pBlock {
+    display: block;
+}
+
+#spanInline{
+    display: inline;
+}
+
+#divInlineBlock{
+    display: inline-block;
 }
 
 main {
@@ -32,4 +54,12 @@ main {
 .poke {
     width: 200px;
     height: 200px;
+}
+
+#colossusImg{
+    width: 100px;
+}
+
+body {
+    display: inline-block;
 }
