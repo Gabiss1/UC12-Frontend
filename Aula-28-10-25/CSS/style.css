@@ -13,6 +13,9 @@
     background-color: darkgoldenrod;
     padding: 10px;
     border: 10px solid cyan;
+    white-space: nowrap;
+    min-height: 100vh;
+    min-width: 100%;
 }
 
 #caixa3 {
@@ -26,11 +29,36 @@
 
 #caixaDescricao{
     width: 200px;
-    height: 470px;
+    height: 300px;
     background-color: purple;
     padding: 20px;
     border: 5px solid blue;
     margin: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#colossusImg {
+    border: 8px dashed cyan;
+    padding: 6px;
+}
+
+.caixaImgs {
+    width: 150px;
+    height: 80px;
+    background-color: purple;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 15px;
+}
+
+.imgCaixa {
+    max-width: 150px;
+    max-height: 80px;
+}
+
+#primeiraImg, #segundaImg, #terceiraImg {
+    display: inline-block;
 }
 
 #pBlock {
@@ -43,12 +71,6 @@
 
 #divInlineBlock{
     display: inline-block;
-}
-
-main {
-    white-space: nowrap;
-    min-height: 100vh;
-    min-width: 100%;
 }
 
 .poke {
