@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start; 
+    /* Só funciona junto com align items e se existir uma quebra de linha */
+    flex-flow: column wrap;
+}
+
+header {
+    background-color: khaki;
+    color: black;
+    max-width: 350px;
+}
+
+main {
+    background-color: chartreuse;
+    color: black;
+    max-width: 350px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: black;
+    max-width: 350px;
+}
