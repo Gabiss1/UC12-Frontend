@@ -93,3 +93,32 @@ header img {
     margin: 10px;
     align-self: center;
 }
+
+#comunidade {
+    box-sizing: border-box;
+    border: 10px;
+    display: flexbox;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15px;
+}
+
+#comentarios {
+    box-sizing: border-box;
+    border: 10px;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 90%;
+    margin-top: 15px;
+}
+
+#comunidade div {
+    width: 45%;
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    padding: 8px;
+    flex-flow: column;
+    box-sizing: border-box;
+    border: 8px solid #333;
+}
