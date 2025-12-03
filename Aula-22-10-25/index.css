@@ -1,0 +1,10 @@
+body {
+    background-color: blue;
+}
+
+table {
+    background-color: black;
+    color: white;
+    border-color: cyan;
+    border-width: 3px;
+}

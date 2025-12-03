@@ -1,0 +1,87 @@
+#caixa1 {
+    width: 200px;
+    height: 470px;
+    background-color: purple;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+}
+
+#caixa2 {
+    width: 1230px;
+    height: 550px;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    border: 10px solid cyan;
+    white-space: nowrap;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+#caixa3 {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    padding: 20px;
+    border: 5px dashed purple;
+    box-sizing: border-box;
+}
+
+#caixaDescricao{
+    width: 200px;
+    height: 300px;
+    background-color: purple;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#colossusImg {
+    border: 8px dashed cyan;
+    padding: 6px;
+}
+
+.caixaImgs {
+    width: 150px;
+    height: 80px;
+    background-color: purple;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 15px;
+}
+
+.imgCaixa {
+    max-width: 150px;
+    max-height: 80px;
+}
+
+#primeiraImg, #segundaImg, #terceiraImg {
+    display: inline-block;
+}
+
+#pBlock {
+    display: block;
+}
+
+#spanInline{
+    display: inline;
+}
+
+#divInlineBlock{
+    display: inline-block;
+}
+
+.poke {
+    width: 200px;
+    height: 200px;
+}
+
+#colossusImg{
+    width: 100px;
+}
+
+body {
+    display: inline-block;
+}
