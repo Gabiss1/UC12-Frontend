@@ -1,0 +1,16 @@
+:root {
+    background-color: aqua;
+    --visibilidade: visible;
+}
+
+.visivel {
+    --visibilidade: visible;
+}
+
+.invisivel {
+    --visibilidade: hidden;
+}
+
+.atividade-3 {
+    visibility: var(--visibilidade);
+}
