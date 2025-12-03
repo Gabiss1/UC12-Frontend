@@ -1,0 +1,22 @@
+:root {
+    --cor-fundo: #172;
+    --cor-texto: #123;
+}
+
+.dark{
+    --cor-fundo: #fff;
+    --cor-texto: #333;
+}
+
+.light{
+    --cor-fundo: #333;
+    --cor-texto: #fff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+
+    box-sizing: border-box;
+
+}
