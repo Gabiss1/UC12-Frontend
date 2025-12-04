@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const mudaFundo = document.getElementById("corFundo")
     const body = document.querySelector("body")
     const section3 = document.querySelector("#atividade-3")
+    const digitar = document.getElementById("ondeVaiDigitar")
+    const aparecer = document.getElementById("ondeVaiAparecer")
 
     btnVisibilidade.addEventListener("click", ()=>{
         textoDaleste.classList.toggle('hide');
@@ -12,14 +14,17 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
 
     mudaFundo.addEventListener("mouseover", ()=>{
-        mudaFundo.classList.toggle("fundoDiferente")
-        mudaFundo.classList.toggle("fundoPadrao")
+        mudaFundo.classList.toggle("fundoDiferente");
+        mudaFundo.classList.toggle("fundoPadrao");
     })
 
     mudaFundo.addEventListener("mouseout", ()=>{
-        mudaFundo.classList.toggle("fundoDiferente")
-        mudaFundo.classList.toggle("fundoPadrao")
+        mudaFundo.classList.toggle("fundoDiferente");
+        mudaFundo.classList.toggle("fundoPadrao");
     })
 
-
+    digitar.addEventListener("keyup", ()=>{
+        console.log(digitar.textContent.toString())
+        aparecer.textContent = digitar.textContent.toString();
+    })
 })
