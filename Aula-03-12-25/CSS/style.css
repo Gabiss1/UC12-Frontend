@@ -1,4 +1,4 @@
-:root {
+/* :root {
     background-color: aqua;
     --visibilidade: visible;
 }
@@ -8,9 +8,26 @@
 }
 
 .invisivel {
-    --visibilidade: hidden;
+    --visibilidade: none;
 }
 
-.atividade-3 {
-    visibility: var(--visibilidade);
+#atividade-3 #texto {
+    display: var(--visibilidade);
+} */
+
+.hide {
+    display: none;
+}
+
+#corFundo {
+    width: 200px;
+    height: 200px;
+}
+
+.fundoPadrao {
+    background-color: grey;
+}
+
+.fundoDiferente {
+    background-color: blue;
 }
